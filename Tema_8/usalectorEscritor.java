@@ -38,14 +38,14 @@ public class usalectorEscritor extends Thread {
         usalectorEscritor t6 = new usalectorEscritor(re, lec,2);
         usalectorEscritor t7 = new usalectorEscritor(re, lec,2);
         usalectorEscritor t8 = new usalectorEscritor(re, lec,2);
-        t1.run();
-        t5.run();
-        t2.run();
-        t6.run();
-        t3.run();
-        t7.run();
-        t4.run();
-        t8.run();
+        t1.start();
+        t5.start();
+        t2.start();
+        t6.start();
+        t3.start();
+        t7.start();
+        t4.start();
+        t8.start();
         System.out.println(re.observer());
 
     }
